@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.1" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="64" tileheight="64" infinite="0" nextobjectid="100">
+ <properties>
+  <property name="assassin" value="assets/assasin_rightLeftSpritesheet.png"/>
+  <property name="backgroundEasy" value="assets/backgroundEasy.png"/>
+  <property name="backgroundHard" value="assets/backgroundHard.png"/>
+  <property name="backgroundMedium" value="assets/backgroundMedium.png"/>
+  <property name="boss" value="assets/boss.png"/>
+  <property name="bossexplosion" value="assets/bossexplosion.png"/>
+  <property name="damageUp" value="assets/metalBoxCoin.png"/>
+  <property name="explosion" value="assets/explosion.png"/>
+  <property name="firingRateUp" value="assets/metalBoxCoin.png"/>
+  <property name="healthUp" value="assets/metalBoxHeart.png"/>
+  <property name="largeexplosion" value="assets/largeexplosion.png"/>
+  <property name="loading" value="assets/loading.png"/>
+  <property name="moveSpeedUp" value="assets/metalBoxCoin.png"/>
+  <property name="newborn" value="assets/newborn_spritesheet(h54_w62).png"/>
+  <property name="player" value="assets/playerSpriteSheetTemp.png"/>
+  <property name="reward" value="assets/reward1.png"/>
+  <property name="smallexplosion" value="assets/smallexplosion.png"/>
+  <property name="uno" value="assets/uno_Static.png"/>
+ </properties>
+ <tileset firstgid="1" name="blocks1" tilewidth="64" tileheight="64" tilecount="14" columns="14">
+  <image source="blocks1.png" width="900" height="64"/>
+ </tileset>
+ <objectgroup color="#00ff00" name="Object Layer 1">
+  <object id="59" name="Background" type="ScrollingBackground" x="0" y="0" width="64" height="64">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="960"/>
+    <property name="textureID" value="backgroundEasy"/>
+    <property name="textureWidth" value="1280"/>
+   </properties>
+  </object>
+  <object id="55" name="Player1" type="Player" x="621.817" y="556.701" width="34" height="64">
+   <properties>
+    <property name="numFrames" value="6"/>
+    <property name="textureHeight" value="60"/>
+    <property name="textureID" value="player"/>
+    <property name="textureWidth" value="34"/>
+   </properties>
+  </object>
+  <object id="89" name="Assassin1" type="Assassin" x="144.742" y="642.136" width="99" height="99">
+   <properties>
+    <property name="numFrames" value="4"/>
+    <property name="textureHeight" value="100"/>
+    <property name="textureID" value="assassin"/>
+    <property name="textureWidth" value="100"/>
+   </properties>
+  </object>
+  <object id="97" name="HealthUp" type="HealthUp" x="609.333" y="800" width="64" height="64">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="64"/>
+    <property name="textureID" value="healthUp"/>
+    <property name="textureWidth" value="64"/>
+   </properties>
+  </object>
+  <object id="98" name="Assassin1" type="Assassin" x="1038.5" y="658.5" width="99" height="99">
+   <properties>
+    <property name="numFrames" value="4"/>
+    <property name="textureHeight" value="100"/>
+    <property name="textureID" value="assassin"/>
+    <property name="textureWidth" value="100"/>
+   </properties>
+  </object>
+  <object id="99" name="Assassin1" type="Assassin" x="583.833" y="122.5" width="99" height="99">
+   <properties>
+    <property name="numFrames" value="4"/>
+    <property name="textureHeight" value="100"/>
+    <property name="textureID" value="assassin"/>
+    <property name="textureWidth" value="100"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Tile Layer 2" width="20" height="15">
+  <properties>
+   <property name="collidable" value=""/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJy9VAEKwCAIdFDu/z8egwQ5zqUrOhDKzktM6yLSiV3DbrdmPha3C3ZXtJ/B8vTxmF8r6CEX9Y1jFtXMczxYfit4tXSjnh7Sy9SAcTTw/9WL3iPTgxW9ljSWR2UeZmD9vAL8N6J5+PLh+QMivQE1
+  </data>
+ </layer>
+</map>

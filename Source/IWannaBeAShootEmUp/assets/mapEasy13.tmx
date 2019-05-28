@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.1" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="64" tileheight="64" infinite="0" nextobjectid="101">
+ <properties>
+  <property name="assassin" value="assets/assasin_rightLeftSpritesheet.png"/>
+  <property name="backgroundEasy" value="assets/backgroundEasy.png"/>
+  <property name="backgroundHard" value="assets/backgroundHard.png"/>
+  <property name="backgroundMedium" value="assets/backgroundMedium.png"/>
+  <property name="boss" value="assets/boss.png"/>
+  <property name="bossexplosion" value="assets/bossexplosion.png"/>
+  <property name="damageUp" value="assets/metalBoxCoin.png"/>
+  <property name="explosion" value="assets/explosion.png"/>
+  <property name="firingRateUp" value="assets/metalBoxCoin.png"/>
+  <property name="healthUp" value="assets/metalBoxHeart.png"/>
+  <property name="largeexplosion" value="assets/largeexplosion.png"/>
+  <property name="loading" value="assets/loading.png"/>
+  <property name="moveSpeedUp" value="assets/metalBoxCoin.png"/>
+  <property name="newborn" value="assets/newborn_spritesheet(h54_w62).png"/>
+  <property name="player" value="assets/playerSpriteSheetTemp.png"/>
+  <property name="reward" value="assets/reward1.png"/>
+  <property name="smallexplosion" value="assets/smallexplosion.png"/>
+  <property name="uno" value="assets/uno_Static.png"/>
+ </properties>
+ <tileset firstgid="1" name="blocks1" tilewidth="64" tileheight="64" tilecount="14" columns="14">
+  <image source="blocks1.png" width="900" height="64"/>
+ </tileset>
+ <objectgroup color="#00ff00" name="Object Layer 1">
+  <object id="59" name="Background" type="ScrollingBackground" x="0" y="0" width="64" height="64">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="960"/>
+    <property name="textureID" value="backgroundEasy"/>
+    <property name="textureWidth" value="1280"/>
+   </properties>
+  </object>
+  <object id="55" name="Player1" type="Player" x="631.151" y="131.368" width="34" height="64">
+   <properties>
+    <property name="numFrames" value="6"/>
+    <property name="textureHeight" value="60"/>
+    <property name="textureID" value="player"/>
+    <property name="textureWidth" value="34"/>
+   </properties>
+  </object>
+  <object id="89" name="Assassin1" type="Assassin" x="603.409" y="732.803" width="99" height="99">
+   <properties>
+    <property name="numFrames" value="4"/>
+    <property name="textureHeight" value="100"/>
+    <property name="textureID" value="assassin"/>
+    <property name="textureWidth" value="100"/>
+   </properties>
+  </object>
+  <object id="94" name="Uno1" type="Uno" x="154.807" y="749.166" width="39" height="51">
+   <properties>
+    <property name="numFrames" value="2"/>
+    <property name="textureHeight" value="51"/>
+    <property name="textureID" value="uno"/>
+    <property name="textureWidth" value="39"/>
+   </properties>
+  </object>
+  <object id="98" name="Uno1" type="Uno" x="997.833" y="666.5" width="39" height="51">
+   <properties>
+    <property name="numFrames" value="2"/>
+    <property name="textureHeight" value="51"/>
+    <property name="textureID" value="uno"/>
+    <property name="textureWidth" value="39"/>
+   </properties>
+  </object>
+  <object id="99" name="Newborn1" type="Newborn" x="99.6667" y="482.333" width="62" height="54">
+   <properties>
+    <property name="numFrames" value="2"/>
+    <property name="textureHeight" value="54"/>
+    <property name="textureID" value="newborn"/>
+    <property name="textureWidth" value="62"/>
+   </properties>
+  </object>
+  <object id="100" name="Newborn1" type="Newborn" x="1115.67" y="482.333" width="62" height="54">
+   <properties>
+    <property name="numFrames" value="2"/>
+    <property name="textureHeight" value="54"/>
+    <property name="textureID" value="newborn"/>
+    <property name="textureWidth" value="62"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Tile Layer 2" width="20" height="15">
+  <properties>
+   <property name="collidable" value=""/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJytlIEKwCAIRK9R+P9/vAUbxLHzDBIOkvSlFg0A40fx6BJqiUKsp5Sp2Myv8AI6t1Gs46kcXgO1+rK6mAt43sriWareXX2Kw9ZfKVP73xkneZm60G6/GWtlVvt196Fi3LvdtdM8N1f3v3De9G/r0QGF
+  </data>
+ </layer>
+</map>

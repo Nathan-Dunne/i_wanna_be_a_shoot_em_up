@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.1" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="64" tileheight="64" infinite="0" nextobjectid="101">
+ <properties>
+  <property name="assassin" value="assets/assasin_rightLeftSpritesheet.png"/>
+  <property name="backgroundEasy" value="assets/backgroundEasy.png"/>
+  <property name="backgroundHard" value="assets/backgroundHard.png"/>
+  <property name="backgroundMedium" value="assets/backgroundMedium.png"/>
+  <property name="boss" value="assets/boss.png"/>
+  <property name="bossexplosion" value="assets/bossexplosion.png"/>
+  <property name="damageUp" value="assets/metalBoxCoin.png"/>
+  <property name="explosion" value="assets/explosion.png"/>
+  <property name="firingRateUp" value="assets/metalBoxCoin.png"/>
+  <property name="healthUp" value="assets/metalBoxHeart.png"/>
+  <property name="largeexplosion" value="assets/largeexplosion.png"/>
+  <property name="loading" value="assets/loading.png"/>
+  <property name="moveSpeedUp" value="assets/metalBoxCoin.png"/>
+  <property name="newborn" value="assets/newborn_spritesheet(h54_w62).png"/>
+  <property name="player" value="assets/playerSpriteSheetTemp.png"/>
+  <property name="reward" value="assets/reward1.png"/>
+  <property name="smallexplosion" value="assets/smallexplosion.png"/>
+  <property name="uno" value="assets/uno_Static.png"/>
+ </properties>
+ <tileset firstgid="1" name="blocks1" tilewidth="64" tileheight="64" tilecount="14" columns="14">
+  <image source="blocks1.png" width="900" height="64"/>
+ </tileset>
+ <objectgroup color="#00ff00" name="Object Layer 1">
+  <object id="59" name="Background" type="ScrollingBackground" x="0" y="0" width="64" height="64">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="960"/>
+    <property name="textureID" value="backgroundEasy"/>
+    <property name="textureWidth" value="1280"/>
+   </properties>
+  </object>
+  <object id="55" name="Player1" type="Player" x="624.484" y="751.368" width="34" height="64">
+   <properties>
+    <property name="numFrames" value="6"/>
+    <property name="textureHeight" value="60"/>
+    <property name="textureID" value="player"/>
+    <property name="textureWidth" value="34"/>
+   </properties>
+  </object>
+  <object id="92" name="Newborn1" type="Newborn" x="481.242" y="420.394" width="62" height="54">
+   <properties>
+    <property name="numFrames" value="2"/>
+    <property name="textureHeight" value="54"/>
+    <property name="textureID" value="newborn"/>
+    <property name="textureWidth" value="62"/>
+   </properties>
+  </object>
+  <object id="97" name="HealthUp" type="HealthUp" x="610.666" y="270.666" width="64" height="64">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="64"/>
+    <property name="textureID" value="healthUp"/>
+    <property name="textureWidth" value="64"/>
+   </properties>
+  </object>
+  <object id="99" name="Newborn1" type="Newborn" x="738.333" y="421" width="62" height="54">
+   <properties>
+    <property name="numFrames" value="2"/>
+    <property name="textureHeight" value="54"/>
+    <property name="textureID" value="newborn"/>
+    <property name="textureWidth" value="62"/>
+   </properties>
+  </object>
+  <object id="100" name="Newborn1" type="Newborn" x="609" y="70.3333" width="62" height="54">
+   <properties>
+    <property name="numFrames" value="2"/>
+    <property name="textureHeight" value="54"/>
+    <property name="textureID" value="newborn"/>
+    <property name="textureWidth" value="62"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Tile Layer 2" width="20" height="15">
+  <properties>
+   <property name="collidable" value=""/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJytVO0KACEIMyh7/ze++5EwxiZc3EAK0zXtY0XEEjZe22dEY5/K+wv7mMM05lCag2Idj+LFOevjGNyv9t+CT+ljXdh/jh9CZ60n9QD52Id5qpfZ8E3h62IcX8VjrZiL9TIy9P3jmpnP3Rs+D8Wn3sZXvuJ0cGvd+7jh6/TdgPtTPVL/SvfHoP8BaFMCAQ==
+  </data>
+ </layer>
+</map>

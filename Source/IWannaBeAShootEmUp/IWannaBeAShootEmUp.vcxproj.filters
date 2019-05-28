@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Enemies">
+      <UniqueIdentifier>{a6979b14-3dc9-4698-a9d0-33854915da67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameStates">
+      <UniqueIdentifier>{4351772e-a021-4182-89b1-ba461556ef51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML Handlers">
+      <UniqueIdentifier>{10c9666b-54a0-4b24-8ee7-db691b508b17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singletons">
+      <UniqueIdentifier>{56097e3d-971e-41d5-bec5-7f7f8964e8c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unused">
+      <UniqueIdentifier>{6dd8136f-680d-4a46-9ee1-801e73d1ed29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels">
+      <UniqueIdentifier>{cb47df9c-77c4-4329-840e-e7d6ae7699d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unsorted">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Unsorted\cpp">
+      <UniqueIdentifier>{fd6edb7c-e6c8-479a-970d-86a9cc6db0b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unsorted\h">
+      <UniqueIdentifier>{e61aa9c9-ca73-45b8-af90-85a830c58935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML Handlers\h">
+      <UniqueIdentifier>{9014be66-791b-4837-8743-9a1c7cae1faa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML Handlers\cpp">
+      <UniqueIdentifier>{5bfefac2-000d-4d18-a5fe-676f008cb13b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singletons\h">
+      <UniqueIdentifier>{987c0ed2-a514-4f9a-b4ce-f53d509cd1b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singletons\cpp">
+      <UniqueIdentifier>{cf9d8af1-3d92-485e-bbe2-0753f9937dc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels\h">
+      <UniqueIdentifier>{15a3dce0-85d4-4aae-987c-65c69e9f1dd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels\cpp">
+      <UniqueIdentifier>{06854518-409e-46de-935c-036a5175de17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameStates\h">
+      <UniqueIdentifier>{89c5046a-1c19-4fe4-a23d-1f9e6b5ca12e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameStates\cpp">
+      <UniqueIdentifier>{aa3de3c7-fdf4-4037-a46d-3a5b790f1b1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Items">
+      <UniqueIdentifier>{2a6c3042-398a-476a-85ad-91a697aae9fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Items\cpp">
+      <UniqueIdentifier>{ad809a35-159b-40e1-94ac-60052b1170cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Items\h">
+      <UniqueIdentifier>{8de5ba4c-ada9-4ca9-a54e-4784a1ff6264}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AnimatedGraphic.cpp">
+      <Filter>Unsorted\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Unsorted\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuButton.cpp">
+      <Filter>Unsorted\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollingBackground.cpp">
+      <Filter>Unsorted\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ShooterObject.cpp">
+      <Filter>Unsorted\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Unsorted\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Unsorted\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="base64.cpp">
+      <Filter>XML Handlers\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="tinystr.cpp">
+      <Filter>XML Handlers\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>XML Handlers\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>XML Handlers\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>XML Handlers\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletHandler.cpp">
+      <Filter>Singletons\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Singletons\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectFactory.cpp">
+      <Filter>Singletons\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandler.cpp">
+      <Filter>Singletons\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Singletons\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Singletons\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Levels\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelParser.cpp">
+      <Filter>Levels\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectLayer.cpp">
+      <Filter>Levels\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="TileLayer.cpp">
+      <Filter>Levels\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverState.cpp">
+      <Filter>GameStates\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateMachine.cpp">
+      <Filter>GameStates\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>GameStates\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseState.cpp">
+      <Filter>GameStates\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayState.cpp">
+      <Filter>GameStates\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="StateParser.cpp">
+      <Filter>GameStates\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomTransitionState.cpp">
+      <Filter>GameStates\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="DatabaseManager.cpp">
+      <Filter>Singletons\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributes.cpp">
+      <Filter>Unsorted\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlsState.cpp">
+      <Filter>GameStates\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="TutorialState.cpp">
+      <Filter>GameStates\cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Enemy.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedGraphic.h">
+      <Filter>Unsorted\h</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Unsorted\h</Filter>
+    </ClInclude>
+    <ClInclude Include="Callback.h">
+      <Filter>Unsorted\h</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Unsorted\h</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Unsorted\h</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Unsorted\h</Filter>
+    </ClInclude>
+    <ClInclude Include="LoaderParams.h">
+      <Filter>Unsorted\h</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuButton.h">
+      <Filter>Unsorted\h</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Unsorted\h</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollingBackground.h">
+      <Filter>Unsorted\h</Filter>
+    </ClInclude>
+    <ClInclude Include="ShooterObject.h">
+      <Filter>Unsorted\h</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Unsorted\h</Filter>
+    </ClInclude>
+    <ClInclude Include="base64.h">
+      <Filter>XML Handlers\h</Filter>
+    </ClInclude>
+    <ClInclude Include="tinystr.h">
+      <Filter>XML Handlers\h</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>XML Handlers\h</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletHandler.h">
+      <Filter>Singletons\h</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Singletons\h</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectFactory.h">
+      <Filter>Singletons\h</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandler.h">
+      <Filter>Singletons\h</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Singletons\h</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Singletons\h</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>Levels\h</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Levels\h</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelParser.h">
+      <Filter>Levels\h</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectLayer.h">
+      <Filter>Levels\h</Filter>
+    </ClInclude>
+    <ClInclude Include="TileLayer.h">
+      <Filter>Levels\h</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverState.h">
+      <Filter>GameStates\h</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>GameStates\h</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateMachine.h">
+      <Filter>GameStates\h</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>GameStates\h</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuState.h">
+      <Filter>GameStates\h</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseState.h">
+      <Filter>GameStates\h</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayState.h">
+      <Filter>GameStates\h</Filter>
+    </ClInclude>
+    <ClInclude Include="StateParser.h">
+      <Filter>GameStates\h</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomTransitionState.h">
+      <Filter>GameStates\h</Filter>
+    </ClInclude>
+    <ClInclude Include="DatabaseManager.h">
+      <Filter>Singletons\h</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes.h">
+      <Filter>Unsorted\h</Filter>
+    </ClInclude>
+    <ClInclude Include="Pickup.h">
+      <Filter>Items\h</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageUp.h">
+      <Filter>Items\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\gp\SDL-libs\SDL2_ttf-2.0.14\include\SDL_ttf.h">
+      <Filter>Unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthUp.h">
+      <Filter>Items\h</Filter>
+    </ClInclude>
+    <ClInclude Include="FiringRateUp.h">
+      <Filter>Items\h</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveSpeedUp.h">
+      <Filter>Items\h</Filter>
+    </ClInclude>
+    <ClInclude Include="OverclockItem.h">
+      <Filter>Items\h</Filter>
+    </ClInclude>
+    <ClInclude Include="ShotgunItem.h">
+      <Filter>Items\h</Filter>
+    </ClInclude>
+    <ClInclude Include="Assassin.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Newborn.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Uno.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlsState.h">
+      <Filter>GameStates\h</Filter>
+    </ClInclude>
+    <ClInclude Include="TutorialState.h">
+      <Filter>GameStates\h</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="64" tileheight="64" nextobjectid="105">
+ <properties>
+  <property name="assassin" value="assets/assasin_rightLeftSpritesheet_Champion.png"/>
+  <property name="backgroundEasy" value="assets/backgroundEasy.png"/>
+  <property name="backgroundHard" value="assets/backgroundHard.png"/>
+  <property name="backgroundMedium" value="assets/backgroundMedium.png"/>
+  <property name="boss" value="assets/boss.png"/>
+  <property name="bossexplosion" value="assets/bossexplosion.png"/>
+  <property name="damageUp" value="assets/metalBoxCoin.png"/>
+  <property name="explosion" value="assets/explosion.png"/>
+  <property name="firingRateUp" value="assets/metalBoxCoin.png"/>
+  <property name="healthUp" value="assets/metalBoxHeart.png"/>
+  <property name="largeexplosion" value="assets/largeexplosion.png"/>
+  <property name="loading" value="assets/loading.png"/>
+  <property name="moveSpeedUp" value="assets/metalBoxCoin.png"/>
+  <property name="newborn" value="assets/newborn_spritesheet(h54_w62)Champion.png"/>
+  <property name="player" value="assets/playerSpriteSheetTemp.png"/>
+  <property name="reward" value="assets/reward1.png"/>
+  <property name="smallexplosion" value="assets/smallexplosion.png"/>
+  <property name="uno" value="assets/uno_Static_Champion.png"/>
+ </properties>
+ <tileset firstgid="1" name="blocks1" tilewidth="64" tileheight="64" tilecount="14" columns="14">
+  <image source="blocks1.png" width="900" height="64"/>
+ </tileset>
+ <objectgroup color="#00ff00" name="Object Layer 1">
+  <object id="59" name="Background" type="ScrollingBackground" x="0" y="0" width="64" height="64">
+   <properties>
+    <property name="numFrames" value="1"/>
+    <property name="textureHeight" value="960"/>
+    <property name="textureID" value="backgroundHard"/>
+    <property name="textureWidth" value="1280"/>
+   </properties>
+  </object>
+  <object id="55" name="Player1" type="Player" x="620.484" y="407.368" width="34" height="64">
+   <properties>
+    <property name="numFrames" value="6"/>
+    <property name="textureHeight" value="60"/>
+    <property name="textureID" value="player"/>
+    <property name="textureWidth" value="34"/>
+   </properties>
+  </object>
+  <object id="97" name="Uno1" type="Uno" x="172.5" y="744.5" width="39" height="51">
+   <properties>
+    <property name="numFrames" value="2"/>
+    <property name="textureHeight" value="51"/>
+    <property name="textureID" value="uno"/>
+    <property name="textureWidth" value="39"/>
+   </properties>
+  </object>
+  <object id="99" name="Uno1" type="Uno" x="1070.5" y="162.5" width="39" height="51">
+   <properties>
+    <property name="numFrames" value="2"/>
+    <property name="textureHeight" value="51"/>
+    <property name="textureID" value="uno"/>
+    <property name="textureWidth" value="39"/>
+   </properties>
+  </object>
+  <object id="101" name="Assassin1" type="Assassin" x="402.5" y="136.5" width="99" height="99">
+   <properties>
+    <property name="numFrames" value="4"/>
+    <property name="textureHeight" value="100"/>
+    <property name="textureID" value="assassin"/>
+    <property name="textureWidth" value="100"/>
+   </properties>
+  </object>
+  <object id="102" name="Assassin1" type="Assassin" x="780.5" y="654.5" width="99" height="99">
+   <properties>
+    <property name="numFrames" value="4"/>
+    <property name="textureHeight" value="100"/>
+    <property name="textureID" value="assassin"/>
+    <property name="textureWidth" value="100"/>
+   </properties>
+  </object>
+  <object id="103" name="Newborn1" type="Newborn" x="323" y="807" width="62" height="54">
+   <properties>
+    <property name="numFrames" value="2"/>
+    <property name="textureHeight" value="54"/>
+    <property name="textureID" value="newborn"/>
+    <property name="textureWidth" value="62"/>
+   </properties>
+  </object>
+  <object id="104" name="Newborn1" type="Newborn" x="895" y="101" width="62" height="54">
+   <properties>
+    <property name="numFrames" value="2"/>
+    <property name="textureHeight" value="54"/>
+    <property name="textureID" value="newborn"/>
+    <property name="textureWidth" value="62"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Tile Layer 2" width="20" height="15">
+  <properties>
+   <property name="collidable" value=""/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjZWBgYMWCGYGYE0ozIWFGNIxNHwhTCpDtoBaA+QmbODF6iTGPFPdi08uIxicVoOtnI8MMfGYPdvOQ/Y8trokxA1k/ehyQEifY9OJKR6Sahc88cgHMv9TOvzDMiWYHobIFm3oATM4A6A==
+  </data>
+ </layer>
+</map>

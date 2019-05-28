@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objecttypes>
+ <objecttype name="Player" color="#00ff00"/>
+ <objecttype name="assasin" color="#0000ff"/>
+ <objecttype name="Newborn" color="#ff0000"/>
+ <objecttype name="ShotGlider" color="#ff8000"/>
+ <objecttype name="RoofTurret" color="#0000ff"/>
+ <objecttype name="Uno" color="#800080"/>
+ <objecttype name="Boss" color="#000000"/>
+</objecttypes>
